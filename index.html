@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <title>南梦CS2练习地图下载</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    .item {
+      margin-bottom: 20px;
+    }
+    .sidebar {
+      height: 20%;
+      width: 200px;
+      position: fixed;
+      top: 40%;
+      left: -200px; /* 设置初始时隐藏在屏幕左侧 */
+      background-color: #f8f9fa;
+      padding: 20px;
+      transition: left 0.5s ease; /* 添加过渡效果 */
+    }
+
+    .content {
+      margin-left: 0; /* 将左外边距调整为0，便于侧边栏滑出 */
+      padding: 20px;
+      transition: margin-left 0.5s ease; /* 添加过渡效果 */
+    }
+
+    .show-sidebar .sidebar {
+      left: 0; /* 当有.show-sidebar类存在时，将侧边栏滑出到屏幕左侧 */
+    }
+
+    .show-sidebar .content {
+      margin-left: 200px; /* 当有.show-sidebar类存在时，内容区域向右移动以给侧边栏留出空间 */
+    }
+    .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    }
+    @font-face {
+      font-family: 'DouyinSansBold';
+      src: url('resource/font/DouyinSansBold.otf') format('opentype');
+    }
+    h1 {
+      font-family: 'DouyinSansBold', sans-serif;
+    }
+    footer {
+        font-family: 'DouyinSansBold', sans-serif;
+    }
+    body {
+        font-family: 'DouyinSansBold', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-light py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1 class="m-0">S0dm</h1>
+        </div>
+ <!--      <div class="col-6 text-end">
+          <img src="logo路径" alt="网站LOGO" height="50">--> 
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="sidebar" id="sidebar">
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="about.html">关于</a></li>
+      <li><a href="installation.html">安装和启动教程</a></li>
+    </ul>
+  </div>
+  <div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="item">
+          <div class="card">
+            <img src="./resource/CS2-aim-training-map.jpg" class="card-img-top" alt="CS2">
+            <div class="card-body">
+              <h5 class="card-title">ALTERNATIVE CS2 AIM BOTZ MAP</h5>
+              <p class="card-text">这张自定义的瞄准训练地图是由一位名叫azy_cs的YouTuber制作的。他称其为CS：GO中流行的Aim Botz训练地图的替代品。</p>
+              <p class="card-text">出处:<a href="https://cslabez.com/alternative-cs2-aim-botz-map/">https://cslabez.com/alternative-cs2-aim-botz-map/</a></p>
+              <a href="https://cn-sy1.rains3.com/s0dm-oos/CS2/cs2_aim_f.zip" class="btn btn-primary">下载</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="item">
+          <div class="card">
+            <img src="./resource/map.webp" class="card-img-top" alt="GGPREDICT">
+            <div class="card-body">
+              <h5 class="card-title">GGPREDICT TRAINING HUB</h5>
+              <p class="card-text">GGPREDICT TRAINING HUB由GGPREDICT团队创造的一张瞄准训练地图.训练更聪明。排名更快与新的 CS2目标地图。</p>
+              <p class="card-text">作者:<a href="https://ggpredict.io/cs2">https://ggpredict.io/cs2</a></p>
+              <a href="https://cn-sy1.rains3.com/s0dm-oos/CS2/GGPredictTrainingHub.zip" class="btn btn-primary">下载</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="item">
+          <div class="card">
+            <img src="./resource/Aim-Botz-CS2.jpg" class="card-img-top" alt="Aim-Botz-CS2">
+            <div class="card-body">
+              <h5 class="card-title">AIM BOTZ TRAINING MAP</h5>
+              <p class="card-text">您现在可以玩流行的 Aim Botz – Training Map的 CS2 版本。非常感谢uLLetical使这成为可能。</p>
+              <p class="card-text">作者:<a href="https://www.ulletical.com/cs2">https://www.ulletical.com/cs2</a></p>
+              <a href="https://cn-sy1.rains3.com/s0dm-oos/CS2/aim_botz.zip" class="btn btn-primary">下载</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 添加更多文件项 -->
+    </div>
+  </div>
+<br>
+</div>
+  <footer class="footer">
+    <footer class="bg-light py-3 text-center">
+        本网站仅用于上传有关Counter-Strike 2 创意工坊内容，部分地图<a href="https://pvp.wanmei.com/">完美平台</a>现已上线，本站仅用于方便其他玩家下载。
+        <br>
+        页面版权所有 © S0uthdream 2023 | 相关地图版权属于原地图创作者，均已注明作者.
+      </footer>   
+    </div>
+ 
+  </footer>
+
+  <script>
+    const sidebar = document.getElementById('sidebar');
+    let isSidebarVisible = false;
+
+    document.addEventListener('mousemove', (event) => {
+      if (!isSidebarVisible && event.clientX < 100) {
+        sidebar.style.left = '0';
+        isSidebarVisible = true;
+      } else if (isSidebarVisible && event.clientX > 250) {
+        sidebar.style.left = '-200px';
+        isSidebarVisible = false;
+      }
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
